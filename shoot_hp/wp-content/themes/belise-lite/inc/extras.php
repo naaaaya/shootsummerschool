@@ -48,15 +48,15 @@ add_action( 'wp_head', 'belise_pingback_header' );
 function belise_brand() {
 
 		if ( is_front_page() && is_home() ) {
-			echo '<h1 class="site-title">
+			echo '<div class="site-title">
 				<a href="', esc_url( home_url( '/' ) ), '" rel="home">',
-				'<img src="../../img/logo3_green_oval.png">
-					<div class="logo_name float-right">
+				'<img src="http://localhost:8888/shootsummerschool/assets/logo/SHOOT.png" class="header_logo" alt="" width="60px" height="60px">
+					<div class="logo_name pull-right">
 						SHOOT</br>
 						SUMMER</br>
 						SCHOOL</br>
 					</div>',
-				'</a></h1>';
+				'</a></div>';
 		} else {
 			echo '<p class="site-title"><a href="', esc_url( home_url( '/' ) ), '" rel="home">', bloginfo( 'name' ), '</a></p>';
 		}
