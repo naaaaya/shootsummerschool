@@ -542,8 +542,8 @@ function belise_inline_style() {
 	        body,
             .front-page-sidebar,
             .front-page-content,
-            div.woocommerce-error, 
-            div.woocommerce-info, 
+            div.woocommerce-error,
+            div.woocommerce-info,
             div.woocommerce-message,
             .woocommerce div.woocommerce-upsells-products{
                 background-color: #' . $background_color . '
@@ -687,3 +687,19 @@ function belise_remove_nova_markup( $tag, $field, $markup, $term ) {
 }
 add_filter( 'jetpack_nova_menu_item_loop_open_element', 'belise_remove_nova_markup', 4, 999 );
 
+
+/**
+
+* Bootstrapのスクリプトとスタイルをエンキュー
+
+*/
+
+function my_bootstrap_scripts() {
+
+wp_enqueue_style( 'bootstrap-css', get_template_directory_uri() . '/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css');
+
+wp_enqueue_script( 'bootstrap-script', get_template_directory_uri() . '/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js', array(), '1.0.0', true );
+
+}
+
+add_action( 'wp_enqueue_scripts', 'my_bootstrap_scripts' );
