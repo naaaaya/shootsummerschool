@@ -10,3 +10,34 @@ a:focus,
 a:active {
   color: rgba(86, 86, 86, 0.5);
 }
+
+header {
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: 1;
+}
+.header_logo {
+  margin: 0 120px 0 45px;
+}
+
+.shoot_logo {
+  margin-top: 5px;
+}
+
+.logo_name {
+  font-family: Raleway;
+	font-size: 18px;
+	font-weight: 500;
+	letter-spacing: 2px;
+  line-height: 22px;
+	text-align: left;
+	color: #4a4a4a;
+  margin-left: 15px;
+}
+
+.navbar-nav li a {
+  font-family: "ヒラギノ角ゴ", "Hiragino Kaku Gothic"
+}

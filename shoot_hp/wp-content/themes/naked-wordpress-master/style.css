@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Karla|Quicksand);
 @import url('styles/boots-bones.css');
 @import url('header.css');
+@import url('index.css');
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 /*
 Theme Name: Naked Wordpress
@@ -468,9 +469,8 @@ a:active {
   font-style: italic;
 }
 header {
-  padding: 20px 0;
+  margin-top: 30px;
   background: transparent;
-  margin: 20px auto;
 }
 header .gravatar {
   overflow: hidden;

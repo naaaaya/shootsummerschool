@@ -1,0 +1,39 @@
+/*top image*/
+.top-contents {
+  margin-top: 116px;
+}
+.eyecatch {
+    color: #000;
+}
+.filter_top_img {
+  color: #000;
+  /*opacity: 25%;*/
+  height: 682.1px;
+  width: 100%;
+}
+.top_image {
+  width: 100%;
+}
+
+.slogan {
+  /*position: relative;*/
+  /*top: -380px;
+  left: 700px;*/
+}
+
+.slogan h2{
+  font-family: "Raleway", "Helvetica Neue";
+  font-size: 80px;
+	line-height: 0.84;
+	letter-spacing: 2px;
+	text-align: left;
+	color: #ffffff;
+  display: inline;
+}
+
+.slogan p {
+  font-size: 14px;
+	line-height: 1.79;
+	text-align: left;
+	color: #ffffff;
+}

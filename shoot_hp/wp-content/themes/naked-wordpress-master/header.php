@@ -49,28 +49,26 @@
 <header id="masthead" class="site-header">
 		<nav class="site-navigation main-navigation navbar navbar-expand-md navbar-light bg-white">
 			<div class="container">
-				<div class="row">
-					<a class="navbar-brand col-4" href="http://localhost:8888/shootsummerschool/shoot_hp/">
+					<a class="logo_name clearfix" href="http://localhost:8888/shootsummerschool/shoot_hp/">
 						<img alt="logo" src="http://localhost:8888/shootsummerschool/assets/images/logo3_green_oval.png" width="60px" height="60px" class=''>
-						<div class='brand-name'>
-							SHOOT SUMMER SCHOOL
+						<div class='brand-name float-right'>
+							SHOOT</br>SUMMER</br>SCHOOL
 						</div>
 					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
 					<?php
 					wp_nav_menu( array(
 							'theme_location'    => 'primary',
 							'depth'             => 2,
 							'container'         => 'div',
-							'container_class'   => 'collapse navbar-collapse',
 							'container_id'      => 'bs-example-navbar-collapse-1',
 							'menu_class'        => 'nav navbar-nav',
 							'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
 							'walker'            => new WP_Bootstrap_Navwalker()
 						) );
 					?>
-					<button class="navbar-toggler col-4 align-self-end" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-controls="bs-example-navbar-collapse-1" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
 				</div>
 			</div>
 		</nav>
