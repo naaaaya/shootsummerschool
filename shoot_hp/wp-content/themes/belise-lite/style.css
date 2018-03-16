@@ -553,15 +553,15 @@ input[type="submit"]:hover,
 a,
 h3,
 h5 {
-	color: #ccc5b9;
+	color: #e6fad2;
 }
 
 h4 {
-	color: #4a4b4a;
+	color: #313331;
 }
 
 h6 {
-	color: #3d3e3d;
+	color: #313331;
 }
 
 .main-navigation a,
@@ -1039,7 +1039,7 @@ html {
 }
 
 body {
-	background: #f2ebe0; /* Fallback for when there is no custom background color defined. */
+	background: #e6fad2; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote:before,
@@ -1288,7 +1288,7 @@ a:active {
 	width: 325px;
 	margin-left: -162.5px;
 	padding: 30px 0;
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 	-webkit-box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.2);
 	box-shadow: 0 10px 15px -5px rgba(0, 0, 0, 0.2);
 	text-align: center;
@@ -1310,7 +1310,7 @@ a:active {
 }
 
 .main-navigation ul ul ul {
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 	/*display: block !important;*/
 	float: left;
 	left: 0 !important;
@@ -1409,7 +1409,7 @@ a:active {
 	float: left;
 	position: relative;
 	width: 100%;
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 	text-align: center;
 }
 
@@ -1531,7 +1531,7 @@ a:active {
 }
 
 .main-navigation ul ul li.menu-item-has-children:hover {
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 }
 
 .categories {
@@ -1960,7 +1960,7 @@ a:active {
 
 .entry-header {
 	padding: 40px 20px;
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 	text-align: center;
 }
 
@@ -2045,7 +2045,7 @@ a:active {
 
 .entry-content table a:hover,
 .comments-area table a:hover {
-	color: #ccc5b9;
+	color: #e6fad2;
 	text-decoration: underline;
 }
 
@@ -2484,7 +2484,7 @@ textarea {
 }
 
 .post-col .sticky .entry-header {
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 }
 
 .post-col .entry-header .entry-meta {
@@ -2550,7 +2550,7 @@ textarea {
 }
 
 .small-hero {
-	padding: 66px 0 101px;
+	padding: 100px 0 100px;
 }
 
 .big-hero {
@@ -2592,7 +2592,7 @@ textarea {
 	width: 25px;
 	height: 4px;
 	margin-left: -12.5px;
-	border-bottom: 4px solid #dadfe8;
+	/* border-bottom: 4px solid #dadfe8; */
 	content: "";
 }
 
@@ -2632,7 +2632,7 @@ textarea {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(54,54,57,0.9);
+	background-color: rgba(0,0,0,0.2);
 	content: " ";
 }
 
@@ -2722,7 +2722,7 @@ textarea {
 ## Front page
 --------------------------------------------------------------*/
 .front-page-content {
-	background: #f2ebe0;
+	background: #e6fad2;
 	padding: 50px 0 45px;
 }
 
@@ -3031,7 +3031,7 @@ textarea {
 }
 
 .single-nova_menu_item .menu-group-title {
-	background-color: #f2ebe0;
+	background-color: #e6fad2;
 	line-height: 1;
 	padding: 50px 0 24px;
 }
@@ -3334,7 +3334,7 @@ body.page-template-template-full-width.page {
 
 /* Testimonials - Team section */
 .page-template-template-full-width .testimonials-container {
-	background: #f2ebe0;
+	background: #e6fad2;
 }
 
 .page-template-template-full-width .testimonial-entry {
@@ -3405,7 +3405,7 @@ body.page-template-template-full-width.page {
 
 /* Contact form */
 .page-template-template-full-width .form-container {
-	background: #f2ebe0;
+	background: #e6fad2;
 	margin: 0 -20px;
 	padding: 63px 20px 45px;
 }
@@ -3515,7 +3515,7 @@ body.page-template-template-full-width.page {
     ## Sidebars & Widgets
     --------------------------------------------------------------*/
 .front-page-sidebar {
-	background: #f2ebe0;
+	background: #e6fad2;
 	padding: 41px 0;
 }
 
@@ -4139,7 +4139,7 @@ object {
 .ribbon h4,
 .ribbon h5,
 .ribbon h6 {
-	color: #f2ebe0;
+	color: #e6fad2;
 	font-size: 20px;
 	letter-spacing: 0.05em;
 	line-height: 38px;
@@ -4168,7 +4168,7 @@ object {
 }
 
 .post-type-archive-product .ribbon {
-	background: #f2ebe0;
+	background: #e6fad2;
 }
 
 .post-type-archive-product .ribbon .ribbon-image:before {
@@ -5488,7 +5488,7 @@ input[type="submit"],
      -----------*/
 
 	.small-hero {
-		padding: 83px 0 117px !important;
+		padding: 120px 0 120px !important;
 	}
 
 	.big-hero {
@@ -6209,3 +6209,27 @@ input[type="submit"],
 		padding-right: 0;
 	}
 }
+
+
+/*-----------
+     ### catch copy
+     -----------*/
+
+		.copy-section{
+			 background-color: #fff;
+			 width: 100%;
+		 }
+		.copy-section .eyecatch-title{
+			width: 271.1px;
+			height: 91px;
+
+		}
+
+		.eyecatch-title h2{
+			font-family: TsukushiA;
+			font-size: 30px;
+			font-weight: 500;
+			line-height: 1.67;
+			text-align: center;
+			color: #242121;
+		}

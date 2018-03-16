@@ -91,6 +91,20 @@
 
 		<?php belise_hero_content(); ?>
 
+		<div class='copy-section'>
+			<div class='eyecatch-title'>
+				<h2>探求、探検、</br>
+				発見しよう</h2>
+			</div>
+			<div class='copy-description'><p>
+				SHOOTは高校生、大学生が</br>
+				「中学生に、今伝えたいこと」をテーマに創り上げたサマースクールです。</br>
+				学校も年齢も違う仲間と、将来の夢・進路のこと・勉強のこと、</br>
+				いつもと違う視点でちょっぴり真剣に考える４日間を提供します。
+			</p></div>
+		</div>
+
+
 		<?php belise_categories_menu(); ?>
 
 		<div id="content" class="site-content">

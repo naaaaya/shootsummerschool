@@ -645,7 +645,7 @@
 }
 
 .woocommerce .woocommerce-related-products {
-	background: #f2ebe0;
+	background: #e6fad2;
 }
 
 .woocommerce .woocommerce-upsells-products {
@@ -724,7 +724,7 @@
 .woocommerce td.product-name dl.variation dt,
 .woocommerce td.product-name dl.variation dd,
 .woocommerce td.product-name dl.variation dd p {
-	color: #ccc5b9;
+	color: #e6fad2;
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 1.5;

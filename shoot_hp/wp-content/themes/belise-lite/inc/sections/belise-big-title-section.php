@@ -14,7 +14,7 @@ if ( ! function_exists( 'belise_front_page_hero' ) ) :
 	function belise_front_page_hero() {
 
 		$default                 = current_user_can( 'edit_theme_options' ) ? sprintf( '<p><a href="' . admin_url( 'customize.php?autofocus[control]=belise_front_page_title' ) . '">%s</a></p>', esc_html__( 'Edit this text in Customizer', 'belise-lite' ) ) : false;
-		$belise_front_page_title = get_theme_mod( 'belise_front_page_title', $default );
+		$belise_front_page_title = "Find yourself.";
 
 		$default                       = current_user_can( 'edit_theme_options' ) ? esc_html__( 'Change button text in Front Page', 'belise-lite' ) : false;
 		$belise_front_page_button_text = get_theme_mod( 'belise_front_page_button_text', $default );
