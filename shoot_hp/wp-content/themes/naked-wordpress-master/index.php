@@ -68,4 +68,13 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<?php endif; // OK, I think that takes care of both scenarios (having posts or not having any posts) ?>
 		</div><!-- #content .site-content -->
 	</div><!-- #primary .content-area -->
+
+	<div class='briefing'>
+		<div class='briefing_description'>
+			<h1>説明会参加者募集中</h1>
+			<a href='説明会/'>
+				<button type="button" class="btn btn-success btn-lg briefing_link">参加する</button>
+			</a>
+		</div>
+	</div>
 <?php get_footer(); // This fxn gets the footer.php file and renders it ?>

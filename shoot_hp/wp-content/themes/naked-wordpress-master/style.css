@@ -2,9 +2,10 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
 @import url('styles/boots-bones.css');
-@import url('header.css');
-@import url('index.css');
-@import url('normalize.css');
+@import url('styles/header.css');
+@import url('styles/index.css');
+@import url('styles/page.css');
+@import url('styles/normalize.css');
 /*
 Theme Name: Naked Wordpress
 Theme URI: http://bckmn.com/naked-wordpress

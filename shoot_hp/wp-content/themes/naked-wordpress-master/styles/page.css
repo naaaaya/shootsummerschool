@@ -1,0 +1,8 @@
+@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
+
+html {
+  background-color: black;
+}
+span {
+  font-family: 'Sawarabi Mincho';
+}

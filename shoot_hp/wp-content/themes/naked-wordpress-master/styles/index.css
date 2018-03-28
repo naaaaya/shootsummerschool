@@ -77,7 +77,9 @@ body {
 }
 
 .post {
+  width: 100%;
   border-style: none;
+  padding: 100px;
 }
 
 .post-title {
@@ -87,4 +89,31 @@ body {
 
 .post-categories, .post-categories li  {
   display: inline;
+}
+
+.briefing {
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://localhost:8888/shootsummerschool/assets/images/briefing_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: #fff;
+  display: table;
+}
+
+.briefing_description {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.briefing_description h1 {
+  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+}
+
+.briefing_link {
+  margin-top: 20px;
+  width: 15%;
+  height: 10%;
 }
