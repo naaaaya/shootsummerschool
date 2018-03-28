@@ -1,8 +1,10 @@
 @import url(http://fonts.googleapis.com/css?family=Karla|Quicksand);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
 @import url('styles/boots-bones.css');
 @import url('header.css');
 @import url('index.css');
-@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url('normalize.css');
 /*
 Theme Name: Naked Wordpress
 Theme URI: http://bckmn.com/naked-wordpress
@@ -469,7 +471,6 @@ a:active {
   font-style: italic;
 }
 header {
-  margin-top: 30px;
   background: transparent;
 }
 header .gravatar {
@@ -718,7 +719,6 @@ html[xmlns] .clearfix {
   /* Those wide screens above 1280px */
   @media only screen and (min-width: 1281px) {
     body{
-      font-size: 2.5em;
       line-height: 1.5em;
     }
     article .title{

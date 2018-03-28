@@ -48,7 +48,7 @@
 
 <header id="masthead" class="site-header">
 		<nav class="site-navigation main-navigation navbar navbar-expand-md navbar-light bg-white">
-			<div class="container">
+			<div class="container header-navbar">
 					<a class="logo_name clearfix" href="http://localhost:8888/shootsummerschool/shoot_hp/">
 						<img alt="logo" src="http://localhost:8888/shootsummerschool/assets/images/logo3_green_oval.png" width="60px" height="60px" class=''>
 						<div class='brand-name float-right'>
@@ -74,22 +74,8 @@
 		</nav>
 
 		<!-- .site-navigation .main-navigation -->
-
-
-	<!-- <div class="center">
-
-		<div id="brand">
-			<h1 class="site-title">
-				<a href="<?php echo esc_url( home_url( '/' ) ); // Link to the home page ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); // Title it with the blog name ?>" rel="home"><?php bloginfo( 'name' ); // Display the blog name ?></a>
-			</h1>
-			<h4 class="site-description">
-				<?php bloginfo( 'description' ); // Display the blog description, found in General Settings ?>
-			</h4>
-		</div>-->
-
-		<div class="clear"></div>
 	</div><!--/container -->
 
 </header><!-- #masthead .site-header -->
 
-<main class="main-fluid"><!-- start the page containter -->
+<main class="main-container"><!-- start the page containter -->

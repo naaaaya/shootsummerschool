@@ -1,6 +1,15 @@
 body {
   font-family: Raleway, "筑紫A丸ゴシック","Tsukushi A Round Gothic";
 }
+
+header {
+  padding: 0 0 15px !important;
+  background: #fff;
+}
+
+.header-navbar {
+  margin: 20px 0;
+}
 a .navbar-brand {
   color: #333333;
   padding-top: 0;
@@ -8,7 +17,7 @@ a .navbar-brand {
 a:hover,
 a:focus,
 a:active {
-  color: rgba(86, 86, 86, 0.5);
+  color: black !important;
 }
 
 header {

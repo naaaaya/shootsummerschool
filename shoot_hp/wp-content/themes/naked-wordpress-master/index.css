@@ -1,39 +1,90 @@
 /*top image*/
-.top-contents {
-  margin-top: 116px;
+html {
+    height: 100%;
 }
-.eyecatch {
-    color: #000;
-}
-.filter_top_img {
-  color: #000;
-  /*opacity: 25%;*/
-  height: 682.1px;
-  width: 100%;
-}
-.top_image {
-  width: 100%;
+
+body {
+    height: 100%;
+    margin: 0;
 }
 
 .slogan {
-  /*position: relative;*/
-  /*top: -380px;
-  left: 700px;*/
-}
+  width: 100%;
+  height: 100vh;
+  background-image: url("http://localhost:8888/shootsummerschool/assets/images/top_header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  }
 
 .slogan h2{
   font-family: "Raleway", "Helvetica Neue";
   font-size: 80px;
-	line-height: 0.84;
+	line-height: 0.9;
 	letter-spacing: 2px;
-	text-align: left;
+	text-align: right;
 	color: #ffffff;
-  display: inline;
+  display: block;
+  position: absolute;
+  bottom:0;
+  right:0;
+  margin-bottom: 50px;
+  margin-right: 50px
 }
 
-.slogan p {
-  font-size: 14px;
-	line-height: 1.79;
-	text-align: left;
-	color: #ffffff;
+.catch-copy {
+  width: 100%;
+  height: 100vh;
+  padding: 150px 0;
+}
+
+.catch-copy h3 {
+  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+  /* font-weight: bold; */
+  margin-bottom: 80px;
+  text-align: center;
+  color: #404040;
+}
+
+.catch-copy p {
+  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+  text-align: center;
+  color: #404040;
+}
+
+.contents-menu {
+  background-color: #f3f3f3;
+}
+.contents-menu h3 {
+  font-weight: bold;
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.post-list {
+  margin-top: 40px;
+}
+
+.post-list a:hover, a:focus {
+  text-decoration: none;
+  color: black !important;
+}
+
+.post-list .list-group-item {
+  border-style: none none solid none;
+  padding: 15px 0 15px 100px;
+  color: #4a4a4a;
+}
+
+.post {
+  border-style: none;
+}
+
+.post-title {
+  display: inline;
+  padding: 100px;
+}
+
+.post-categories, .post-categories li  {
+  display: inline;
 }

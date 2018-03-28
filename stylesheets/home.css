@@ -43,16 +43,23 @@ header {
 
 
 /*top image*/
-
-
+.eyecatch {
+    color: #000;
+}
+.filter_top_img {
+  color: #000;
+  /*opacity: 25%;*/
+  height: 682.1px;
+  width: 100%;
+}
 .top_image {
   width: 100%;
 }
 
 .slogan {
-  position: relative;
-  top: -380px;
-  left: 700px;
+  /*position: relative;*/
+  /*top: -380px;
+  left: 700px;*/
 }
 
 .slogan h2{

@@ -7,14 +7,36 @@
 
 get_header(); // This fxn gets the header.php file and renders it ?>
 	<div class='top-contents'>
-		<div class='eyecatch'>
-			<img src='http://localhost:8888/shootsummerschool/assets/images/top_header.jpg' class='top_image'>
-			<div class='slogan'>
-				<h2>Find yourself.</h2>
-				<p>自分のやりたいことは何なのか突き詰めて考え、決断をする習慣を身につける4日間</p>
-			</div>
+		<div class='slogan'>
+			<h2>Explore your world.</h2>
 		</div>
 	</div>
+	<div class='catch-copy'>
+		<h3>探求、探検、発見しよう</h3>
+		<p class='copy_paragraph1'>SHOOTは高校生、大学生が</br>
+			「中学生に、今伝えたいこと」をテーマに創り上げたサマースクールです。</br>
+		</p>
+		<p class='copy_paragraph2' >
+			学校も年齢も違う仲間と、将来の夢・進路のこと・勉強のこと、</br>
+			いつもと違う視点でちょっぴり真剣に考える４日間を提供します。</br>
+		</p>
+	</div>
+
+	<!-- <div class="contents-menu">
+		<h3>SUMMER SCHOOL</h3>
+		<div class='container'>
+			<div class="row">
+			  <div class="col-sm-2">
+			    </div>
+			  </div>
+			  <div class="col-sm-2">
+			    </div>
+			  </div>
+			</div>
+		</div>
+	</div> -->
+
+
 	<div id="primary" class="row-fluid">
 		<div id="content" role="main" class="span8 offset2">
 
@@ -22,55 +44,25 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			// Do we have any posts in the databse that match our query?
 			// In the case of the home page, this will call for the most recent posts
 			?>
-
-				<?php while ( have_posts() ) : the_post();
-				// If we have some posts to show, start a loop that will display each one the same way
-				?>
-
-					<article class="post">
-
-						<?php the_post_thumbnail('large'); //Get the thumbnail to this post. ?>
-
-						<h1 class="title">
-							<a href="<?php the_permalink(); // Get the link to this post ?>" title="<?php the_title(); ?>">
-								<?php the_title(); // Show the title of the posts as a link ?>
+				<article class="post">
+					<h1 class='title'>News</h1>
+					<div class="post-list list-group">
+						<?php while ( have_posts() ) : the_post();
+						// If we have some posts to show, start a loop that will display each one the same way
+						?>
+								<a href="<?php the_permalink(); // Get the link to this post ?>" title="<?php the_title(); ?>">
+								<div class="list-group-item">
+									<?php the_time('Y/m/d'); // Display the time published ?>
+									<div class='post-title'><?php the_title(); // Show the title of the posts as a link ?></div>
+								</div>
 							</a>
-						</h1>
-						<div class="post-meta">
-							<?php the_time('m/d/Y'); // Display the time published ?> |
-							<?php if( comments_open() ) : // If we have comments open on this post, display a link and count of them ?>
-								<span class="comments-link">
-									<?php comments_popup_link( __( 'Comment', 'break' ), __( '1 Comment', 'break' ), __( '% Comments', 'break' ) );
-									// Display the comment count with the applicable pluralization
-									?>
-								</span>
-							<?php endif; ?>
-
-						</div><!--/post-meta -->
-
-						<div class="the-content">
-							<?php the_content( 'Continue...' );
-							// This call the main content of the post, the stuff in the main text box while composing.
-							// This will wrap everything in p tags and show a link as 'Continue...' where/if the
-							// author inserted a <!-- more --> link in the post body
-							?>
-
-							<?php wp_link_pages(); // This will display pagination links, if applicable to the post ?>
-						</div><!-- the-content -->
-
-						<div class="meta clearfix">
-							<div class="category"><?php echo get_the_category_list(); // Display the categories this post belongs to, as links ?></div>
-							<div class="tags"><?php echo get_the_tag_list( '| &nbsp;', '&nbsp;' ); // Display the tags this post has, as links separated by spaces and pipes ?></div>
-						</div><!-- Meta -->
-
-					</article>
-
-				<?php endwhile; // OK, let's stop the posts loop once we've exhausted our query/number of posts ?>
-
+						<?php endwhile; // OK, let's stop the posts loop once we've exhausted our query/number of posts ?>
+					</div>
+				</article>
 			<?php else : // Well, if there are no posts to display and loop through, let's apologize to the reader (also your 404 error) ?>
 
 				<article class="post error">
-					<h1 class="404">ページが見つかりません</h1>
+					<h1 class="404">まだ投稿がありません。</h1>
 				</article>
 
 			<?php endif; // OK, I think that takes care of both scenarios (having posts or not having any posts) ?>
