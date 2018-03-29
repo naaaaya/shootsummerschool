@@ -5,8 +5,11 @@
  */
 
 get_header(); // This fxn gets the header.php file and renders it ?>
-	<div id="primary single-page_wrapper" class="row-fluid">
-		<div id="single-page_content" role="main" class="span8 offset2">
+	<div id="primary" class="row-fluid single-page_wrapper">
+		<div class='page_title'>
+			<h1 class="single-page_title"><?php the_title(); // Display the title of the page ?></h1>
+		</div>
+		<div id="single-page_content" role="main">
 
 			<?php if ( have_posts() ) :
 			// Do we have any posts/pages in the databse that match our query?
@@ -16,9 +19,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 				// If we have a page to show, start a loop that will display it
 				?>
 
-					<article class="post">
-
-						<h1 class="single-page_title"><?php the_title(); // Display the title of the page ?></h1>
+					<article class="single-page_post">
 
 						<div class="the-content">
 							<?php the_content();

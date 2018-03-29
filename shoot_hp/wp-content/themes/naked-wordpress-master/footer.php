@@ -17,7 +17,9 @@
 			<a href='https://www.instagram.com/shootsummerschool/'>
 				<i class="fab fa-instagram fa-3x"></i>
 			</a>
-			<!-- <i class="fab fa-line fa-3x"></i> -->
+			<a href='line://ti/p/@vqz7576i'>
+				<i class="fab fa-line fa-3x"></i>
+			</a>
 		</div>
 		<h1 class='contact_us'>Contact Us</h1>
 
