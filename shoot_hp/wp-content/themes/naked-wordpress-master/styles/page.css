@@ -1,8 +1,26 @@
-@import url(https://fonts.googleapis.com/earlyaccess/sawarabimincho.css);
-
-html {
-  background-color: black;
+#single-page_content {
+  color: #4a4a4a;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
 }
-span {
-  font-family: 'Sawarabi Mincho';
+.the-content {
+  font-family: 'Helvetica', 'Noto Sans Japanese';
+  text-align: center;
+}
+
+.the-content p, span, h1 span, h2 span {
+  font-family: 'Helvetica', 'Noto Sans Japanese';
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.the-content ol li {
+    text-align: left;
+}
+
+.single-page_title {
+  text-align: center;
+  font-family: 'Helvetica', 'Noto Sans Japanese';
+  /* color: #4a4a4a; */
 }
