@@ -36,6 +36,10 @@ header {
   margin-top: 5px;
 }
 
+.brand-name {
+  margin: 0 15px;
+}
+
 .logo_name {
   font-family: Raleway;
 	font-size: 18px;

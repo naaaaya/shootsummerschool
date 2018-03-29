@@ -9,6 +9,17 @@
 
 <footer class="site-footer">
 	<div class="site-info container">
+		<img alt="logo" src="http://shootsummerschool.org/wp-content/themes/naked-wordpress-master/assets/images/logo3_green_oval.png" class='footer_logo' width=200px>
+		<div class="contacts">
+			<a href="https://www.facebook.com/SHOOTSUMMERSCHOOL/">
+				<i class="fab fa-facebook-square fa-3x"></i>
+			</a>
+			<a href='https://www.instagram.com/shootsummerschool/'>
+				<i class="fab fa-instagram fa-3x"></i>
+			</a>
+			<!-- <i class="fab fa-line fa-3x"></i> -->
+		</div>
+		<h1 class='contact_us'>Contact Us</h1>
 
 		<p>Shoot Summer School © 2018 All right reserved.
 		</p>

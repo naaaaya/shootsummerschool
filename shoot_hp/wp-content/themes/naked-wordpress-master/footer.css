@@ -1,0 +1,28 @@
+.site-info {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.contacts {
+  margin: 50px auto;
+}
+
+.contacts svg {
+  margin: 0 20px;
+}
+
+.contacts a {
+  color: black;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: black !important;
+  text-decoration: none;
+}
+
+.contact_us {
+  font-family: Raleway, "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+  margin-bottom: 50px;
+}

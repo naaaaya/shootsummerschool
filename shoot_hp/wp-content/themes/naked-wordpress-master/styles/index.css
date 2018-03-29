@@ -11,7 +11,7 @@ body {
 .slogan {
   width: 100%;
   height: 100vh;
-  background-image: url("http://localhost:8888/shootsummerschool/assets/images/top_header.jpg");
+  background-image: url("http://shootsummerschool.org/wp-content/themes/naked-wordpress-master/assets/images/top_header.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -94,7 +94,7 @@ body {
 .briefing {
   width: 100%;
   height: 100vh;
-  background-image: url("http://localhost:8888/shootsummerschool/assets/images/briefing_image.jpg");
+  background-image: url("http://shootsummerschool.org/wp-content/themes/naked-wordpress-master/assets/images/briefing_image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
