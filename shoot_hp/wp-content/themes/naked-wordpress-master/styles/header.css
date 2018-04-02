@@ -1,3 +1,27 @@
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: normal;
+  src: local("YuGothic-Medium"),
+    local("Yu Gothic Medium"),
+    local("YuGothic-Regular");
+}
+@font-face {
+  font-family: "MyYuGothicM";
+  font-weight: bold;
+  src: local("YuGothic-Bold"),
+    local("Yu Gothic");
+}
+
+html {
+ font-family:
+ -apple-system,
+ BlinkMacSystemFont,
+ "Hiragino Kaku Gothic ProN",
+ MyYuGothicM,
+ Meiryo,
+ sans-serif;
+}
+
 body {
   font-family: Raleway, "筑紫A丸ゴシック","Tsukushi A Round Gothic";
 }

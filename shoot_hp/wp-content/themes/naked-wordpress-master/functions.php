@@ -95,4 +95,4 @@ add_action( 'wp_enqueue_scripts', 'naked_scripts' ); // Register this fxn and al
 
 
 // Register Custom Navigation Walker
-require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
+require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
