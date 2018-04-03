@@ -21,6 +21,7 @@
 
 .the-content p span {
   text-align: justify;
+  font-size: 16px;  
 }
 .the-content p, span, h1 span, h2 span {
   font-family: 'Helvetica', 'Noto Sans Japanese';

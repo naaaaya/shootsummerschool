@@ -38,6 +38,15 @@ a .navbar-brand {
   color: #333333;
   padding-top: 0;
 }
+
+.navbar-default {
+background-color: #fff!important;
+}
+
+.navbar {
+    border-radius: 0px!important;
+}
+
 a:hover,
 a:focus,
 a:active {
@@ -77,4 +86,13 @@ header {
 
 .navbar-nav li a {
   font-family: "ヒラギノ角ゴ", "Hiragino Kaku Gothic"
+}
+
+.menu-header-container {
+  float: right;
+  display: block;
+}
+
+.dropdown-menu li a:active {
+  background-color: #006400;
 }

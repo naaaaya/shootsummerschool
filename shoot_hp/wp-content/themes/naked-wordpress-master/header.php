@@ -13,7 +13,6 @@
 	<?php bloginfo('name'); // show the blog name, from settings ?> |
 	<?php is_front_page() ? bloginfo('description') : wp_title(''); // if we're on the home page, show the description, from the site's settings - otherwise, show the title of the post or page ?>
 </title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -47,11 +46,12 @@
 >
 
 <header id="masthead" class="site-header">
-		<nav class="site-navigation main-navigation navbar navbar-expand-md navbar-light bg-white">
+
+		<nav class="navbar navbar-default bg-white">
 			<div class="container header-navbar">
 					<a class="logo_name clearfix" href="http://shootsummerschool.org/">
 						<img alt="logo" src="http://shootsummerschool.org/wp-content/themes/naked-wordpress-master/assets/images/logo3_green_oval.png" width="60px" height="60px" class=''>
-						<div class='brand-name float-right'>
+						<div class='brand-name pull-right'>
 							SHOOT</br>SUMMER</br>SCHOOL
 						</div>
 					</a>
@@ -70,12 +70,9 @@
 						) );
 					?>
 				</div>
-			</div>
 		</nav>
 
 		<!-- .site-navigation .main-navigation -->
-	</div><!--/container -->
-
 </header><!-- #masthead .site-header -->
 
 <main class="main-container"><!-- start the page containter -->

@@ -8,6 +8,7 @@ body {
     margin: 0;
 }
 
+
 .slogan {
   width: 100%;
   height: 100vh;
@@ -75,7 +76,7 @@ body {
 
 .post-list .list-group-item {
   border-style: none none solid none;
-  padding: 15px 0 15px 100px;
+  padding: 15px auto;
   color: #4a4a4a;
 }
 
@@ -115,8 +116,20 @@ body {
   font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
 }
 
-.briefing_link {
-  margin-top: 20px;
-  width: 15%;
-  height: 10%;
+
+@media screen and (max-width: 480px) {
+  .post-title {
+    display: block!important;
+    padding: none!important;
+  }
+  html{
+    color: red!important;
+  }
+}
+
+@media screen and (min-width:768px) and ( max-width:1024px) {
+  .post-title {
+    display: block!important;
+    padding: none!important;
+  }
 }
