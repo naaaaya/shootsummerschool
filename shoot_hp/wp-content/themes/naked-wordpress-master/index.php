@@ -24,20 +24,30 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 		</div>
 	</div>
 
-	<!-- <div class="contents-menu">
-		<h3>SUMMER SCHOOL</h3>
-		<div class='container'>
-			<div class="row">
-			  <div class="col-sm-2">
-			    </div>
-			  </div>
-			  <div class="col-sm-2">
-			    </div>
-			  </div>
-			</div>
-		</div>
-	</div> -->
+	<div class='overview-wrapper'>
+		<div class='overview bg-faded'>
+			<h2 class='overview_title'>開催概要</h2>
+				<h4 class='heading'>開催期間</h4>
+				<span>2018年8月9日(木)</span><span>～12日(日)</span>
 
+			<h4 class='heading'>宿泊施設</h4>
+				<span>東京さぬき倶楽部<span></br>
+				<span>〒108-0073 </span><span>東京都港区三田一丁目 11-9</span>
+
+			<h4 class='heading'>対象</h4>
+				<span>中学生 32名</span>
+
+			<h4 class='heading'>参加費</h4>
+				<span>33,000円前後を予定しております。</span></br>
+				<span>（宿泊費・食事代・ワークショップ体験料・旅行傷害保険料含む）</span>
+
+			<h4 class='heading'>ご協賛企業</h4>
+				<span>株式会社PIANO</span><span>（<a href='http://piano-corp.com/'>http://piano-corp.com/</a>）</span>
+
+			<h4 class='heading'>協力団体</h4>
+				<span>NPO法人 ちょっくらホームステイ</span> <span>（<a href='http://chokkura.org/'>http://chokkura.org/</a>）</span>
+		</div>
+	</div>
 
 	<div id="primary" class="row-fluid">
 		<div id="content" role="main" class="news_list">

@@ -66,9 +66,34 @@ body {
 .copy_paragraph span {
   display:inline-block;
 }
+
+.overview-wrapper {
+  padding: 10%;
+  background-color: #F6F6F6;
+}
+
+.overview {
+  width: 100%;
+  text-align: center;
+}
+.overview_title {
+  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+  margin-bottom: 40px;
+}
+
+.heading {
+  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+  margin: 20px auto;
+}
+
+.overview span {
+  /* display:inline-block; */
+}
+
 .contents-menu {
   background-color: #f3f3f3;
 }
+
 .contents-menu h3 {
   font-weight: bold;
   text-align: center;
@@ -150,7 +175,7 @@ body {
   .post {
     width: 100%;
     border-style: none;
-    padding: 0!important;
+    padding: 40px 0!important;
   }
 
   .post-title {
