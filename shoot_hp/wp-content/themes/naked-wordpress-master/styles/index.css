@@ -8,6 +8,9 @@ body {
     margin: 0;
 }
 
+.main-wrapper {
+  margin: 0 10%;
+}
 
 .slogan {
   width: 100%;
@@ -35,16 +38,23 @@ body {
 
 .catch-copy {
   width: 100%;
-  height: 100vh;
   padding: 150px 0;
+  text-align: justify;
 }
 
 .catch-copy h3 {
-  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
-  /* font-weight: bold; */
-  margin-bottom: 80px;
   text-align: center;
+  margin-bottom: 80px;
+}
+
+.catch-copy h3 span {
+  font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
   color: #404040;
+  display:inline-block;
+}
+
+.with_indent {
+  text-indent: 1em;
 }
 
 .catch-copy p {
@@ -53,6 +63,9 @@ body {
   color: #404040;
 }
 
+.copy_paragraph span {
+  display:inline-block;
+}
 .contents-menu {
   background-color: #f3f3f3;
 }
@@ -76,7 +89,7 @@ body {
 
 .post-list .list-group-item {
   border-style: none none solid none;
-  padding: 15px auto;
+  padding: 15px;
   color: #4a4a4a;
 }
 
@@ -112,24 +125,38 @@ body {
   text-align: center;
 }
 
-.briefing_description h1 {
+.briefing_description h1 span{
+  color: #fff;
+  display:inline-block;
   font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
 }
 
 
-@media screen and (max-width: 480px) {
-  .post-title {
-    display: block!important;
-    padding: none!important;
-  }
-  html{
-    color: red!important;
-  }
-}
+@media only screen and (max-width: 767px) {
 
-@media screen and (min-width:768px) and ( max-width:1024px) {
-  .post-title {
-    display: block!important;
-    padding: none!important;
+  .catch-copy h3 span {
+    font-family: "筑紫A丸ゴシック","Tsukushi A Round Gothic";
+    color: #404040;
+    display:inline-block;
+    text-indent:1em;
   }
+
+  .post-list .list-group-item {
+    border-style: none none solid none;
+    padding: 15px;
+    color: #4a4a4a;
+  }
+
+  .post {
+    width: 100%;
+    border-style: none;
+    padding: 0!important;
+  }
+
+  .post-title {
+    display: block;
+    padding: 0;
+  }
+
+
 }

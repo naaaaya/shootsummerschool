@@ -11,15 +11,17 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<h2>Explore your world.</h2>
 		</div>
 	</div>
-	<div class='catch-copy'>
-		<h3>探求、探検、発見しよう</h3>
-		<p class='copy_paragraph1'>SHOOTは高校生、大学生が</br>
-			「中学生に、今伝えたいこと」をテーマに創り上げたサマースクールです。</br>
-		</p>
-		<p class='copy_paragraph2' >
-			学校も年齢も違う仲間と、将来の夢・進路のこと・勉強のこと、</br>
-			いつもと違う視点でちょっぴり真剣に考える４日間を提供します。</br>
-		</p>
+	<div class='main-wrapper'>
+		<div class='catch-copy'>
+			<h3><span class='with_indent'>探求、探検、</span><span>発見しよう。</span></h3>
+			<p class='copy_paragraph'><span>SHOOTは</span><span>高校生、大学生が</span></br>
+				<span>「中学生に、今伝えたいこと」</span><span>をテーマに創り上げた</span><span>サマースクールです。</span></br>
+			</p>
+			<p class='copy_paragraph' >
+				<span>学校も年齢も違う仲間と、</span><span>将来の夢・進路のこと・勉強のこと、</span></br>
+				<span>いつもと違う視点で</span><span>ちょっぴり真剣に考える</span><span>４日間を提供します。</span></br>
+			</p>
+		</div>
 	</div>
 
 	<!-- <div class="contents-menu">
@@ -62,6 +64,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 			<?php else : // Well, if there are no posts to display and loop through, let's apologize to the reader (also your 404 error) ?>
 
 				<article class="post error">
+					<h1 class='title'>News</h1>
 					<h1 class="404">まだ投稿がありません。</h1>
 				</article>
 
@@ -71,7 +74,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
 	<div class='briefing'>
 		<div class='briefing_description'>
-			<h1>説明会参加者募集中</h1>
+			<h1><span>説明会参加者</span><span>募集中</span></h1>
 			<a href='説明会/'>
 				<button type="button" class="btn btn-success btn-lg briefing_link">参加する</button>
 			</a>
