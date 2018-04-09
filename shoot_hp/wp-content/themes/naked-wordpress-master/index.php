@@ -25,7 +25,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 	</div>
 
 	<div class='overview-wrapper'>
-		<div class='overview bg-faded'>
+		<div class='overview'>
 			<h2 class='overview_title'>開催概要</h2>
 				<h4 class='heading'>開催期間</h4>
 				<span>2018年8月9日(木)</span><span>～12日(日)</span>
@@ -39,7 +39,8 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 
 			<h4 class='heading'>参加費</h4>
 				<span>33,000円前後を予定しております。</span></br>
-				<span>（宿泊費・食事代・ワークショップ体験料・旅行傷害保険料含む）</span>
+				<span>（宿泊費・食事代・ワークショップ体験料・</span>
+				<span>旅行傷害保険料含む）</span>
 
 			<h4 class='heading'>ご協賛企業</h4>
 				<span>株式会社PIANO</span><span>（<a href='http://piano-corp.com/'>http://piano-corp.com/</a>）</span>
@@ -85,7 +86,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 	<div class='briefing'>
 		<div class='briefing_description'>
 			<h1><span>説明会参加者</span><span>募集中</span></h1>
-			<a href='説明会/'>
+			<a href='http://shootsummerschool.org/briefings/'>
 				<button type="button" class="btn btn-success btn-lg briefing_link">参加する</button>
 			</a>
 		</div>
