@@ -96,3 +96,9 @@ header {
 .dropdown-menu li a:active {
   background-color: #006400;
 }
+
+#entry-btn {
+  color: white!important;
+  background-color: #54DE00!important;
+  padding: 5px 10px!important;
+}

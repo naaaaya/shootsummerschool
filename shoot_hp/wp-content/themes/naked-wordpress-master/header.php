@@ -69,6 +69,8 @@
 					) );
 				?>
 		  </div>
+			<a class='float-right' href='/'>
+				<div id='entry-btn'>エントリー</div></a>
 		</div>
 	</nav>
 </header>

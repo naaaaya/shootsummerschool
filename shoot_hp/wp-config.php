@@ -87,3 +87,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+define('WP_HOME','localhost:8888/shootsummerschool/shoot_hp');
+define('WP_SITEURL','localhost:8888/shootsummerschool/shoot_hp');
