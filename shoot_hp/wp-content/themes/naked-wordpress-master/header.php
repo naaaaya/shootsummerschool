@@ -49,8 +49,8 @@
 <header id="masthead" class="site-header">
 	<nav class="navbar navbar-expand-lg navbar-light bg-white">
 		<div class="container header-navbar">
-			<a class="logo_name clearfix" href="http://shootsummerschool.org/">
-				<img alt="logo" src="http://shootsummerschool.org/wp-content/themes/naked-wordpress-master/assets/images/logo3_green_oval.png" width="60px" height="60px" class=''>
+			<a class="logo_name clearfix" href="http://localhost:8888/">
+				<img alt="logo" src="http://localhost:8888/wp-content/themes/naked-wordpress-master/assets/images/logo3_green_oval.png" width="60px" height="60px" class=''>
 				<div class='brand-name float-right'>
 					SHOOT</br>SUMMER</br>SCHOOL
 				</div>
@@ -70,7 +70,7 @@
 				?>
 		  </div>
 			<a class='float-right' href='/'>
-				<div id='entry-btn'>エントリー</div></a>
+				<!-- <div id='entry-btn'>エントリー</div></a> -->
 		</div>
 	</nav>
 </header>

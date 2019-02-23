@@ -9,7 +9,7 @@
 
 <footer class="site-footer">
 	<div class="site-info container">
-		<img alt="logo" src="http://shootsummerschool.org/wp-content/themes/naked-wordpress-master/assets/images/logo3_green_oval.png" class='footer_logo' width=200px>
+		<img alt="logo" src="http://localhost:8888/wp-content/themes/naked-wordpress-master/assets/images/logo3_green_oval.png" class='footer_logo' width=200px>
 		<div class="contacts">
 			<a href="mailto:shoot2018summerschool@gmail.com?subject=お問い合わせ">
 				<i class="far fa-envelope fa-3x"></i>

@@ -86,7 +86,7 @@ get_header(); // This fxn gets the header.php file and renders it ?>
 	<div class='briefing'>
 		<div class='briefing_description'>
 			<h1><span>説明会参加者</span><span>募集中</span></h1>
-			<a href='http://shootsummerschool.org/briefings/'>
+			<a href='http://localhost:8888/briefings/'>
 				<button type="button" class="btn btn-success btn-lg briefing_link">参加する</button>
 			</a>
 		</div>
