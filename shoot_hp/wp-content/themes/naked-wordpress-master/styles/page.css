@@ -1,0 +1,58 @@
+.single-page_wrapper {
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
+.single-page_post {
+  width: 100%;
+}
+#single-page_content {
+  color: #4a4a4a;
+  text-align: center;
+  letter-spacing: 0.05em;
+  line-height: 1.9;
+  margin: 50px 15%;
+}
+.the-content {
+  font-family: 'Helvetica', 'Noto Sans Japanese';
+  text-align: center;
+}
+
+
+.the-content p span {
+  text-align: justify;
+  font-size: 16px;  
+}
+.the-content p, span, h1 span, h2 span {
+  font-family: 'Helvetica', 'Noto Sans Japanese';
+  text-align: center;
+  color: #4a4a4a;
+}
+
+.the-content ol li {
+    text-align: left;
+}
+
+.single-page_title {
+  text-align: center;
+  font-family: 'Helvetica', 'Noto Sans Japanese';
+  margin: 30px 0;
+}
+
+.page_title {
+  margin-top: 85px;
+  padding: 50px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #000;
+  color: #fff;
+}
+
+.the-content h3 {
+  margin: 30px 0;
+}
+
+.the-content h2 {
+  margin: 30px 0;
+}

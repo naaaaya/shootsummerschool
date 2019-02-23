@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1195px" height="673px" viewBox="0 0 1195 673" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>logo3長方形green</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="logo3長方形green">
+            <rect id="Rectangle-4" fill="#7ED321" x="0" y="0" width="1195" height="673"></rect>
+            <text id="T" font-family="Raleway-BlackItalic, Raleway" font-size="72" font-style="italic" font-weight="700" fill="#FFFFFF">
+                <tspan x="409" y="575">T</tspan>
+            </text>
+            <text id="O" font-family="Raleway-BlackItalic, Raleway" font-size="72" font-style="italic" font-weight="700" fill="#FFFFFF">
+                <tspan x="420" y="465">O</tspan>
+            </text>
+            <text id="O" font-family="Raleway-BlackItalic, Raleway" font-size="72" font-style="italic" font-weight="700" fill="#FFFFFF">
+                <tspan x="382" y="514">O</tspan>
+            </text>
+            <text id="H" font-family="Raleway-BlackItalic, Raleway" font-size="72" font-style="italic" font-weight="700" fill="#FFFFFF">
+                <tspan x="400" y="405">H</tspan>
+            </text>
+            <text id="S" font-family="Raleway-BlackItalic, Raleway" font-size="72" font-style="italic" font-weight="700" fill="#FFFFFF">
+                <tspan x="377" y="349">S</tspan>
+            </text>
+            <path d="M315.404676,324.305151 C275.080024,343.019687 226.382057,364.155835 169.241927,387.766283 C159.729228,391.696953 150.938242,397.185754 143.230353,404.007049 C104.923762,437.907452 101.351842,496.442786 135.252245,534.749377 C169.152649,573.055967 227.687983,576.627888 265.994573,542.727484 C312.891504,501.224838 329.583832,428.495775 315.404676,324.305151 Z M327.211052,302.172403 C388.303841,273.094394 426.729114,250.712875 442.176968,235.265021 C474.607677,202.834312 474.607677,150.253742 442.176968,117.823032 C409.746258,85.3923226 357.165688,85.3923226 324.734979,117.823032 C303.440153,139.117858 295.342874,170.272555 303.573914,199.241317 C314.036557,236.064109 321.920666,270.376269 327.211058,302.172444 Z" id="Rectangle-2" stroke="#FFFFFF" stroke-width="15"></path>
+            <text id="SHOOT-SUMMER-SCHOOL" font-family="Raleway-SemiBold, Raleway" font-size="110" font-weight="500" fill="#FFFFFF">
+                <tspan x="598" y="250">SHOOT</tspan>
+                <tspan x="598" y="379">SUMMER</tspan>
+                <tspan x="598" y="508">SCHOOL</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
